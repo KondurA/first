@@ -1,0 +1,491 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@font-face {
+  font-family: 'Bebas';
+  src: url("../fonts/BebasNeueRegular.eot");
+  src: local("☺"), url("../fonts/BebasNeueRegular.woff") format("woff"), url("../fonts/BebasNeueRegular.ttf") format("truetype"), url("../fonts/BebasNeueRegular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+.header {
+  height: 175px;
+  border: 1px solid #000;
+}
+
+.private {
+  margin: 40px 0 75px 0;
+}
+
+.private__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.private__image {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 50%;
+          flex: 1 0 50%;
+  background: url("../../img/private__img.jpg") 0 0/100% 100% no-repeat;
+}
+
+.private__body {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+  background: #000;
+  color: #ffffff;
+  padding: 0 0 75px 60px;
+}
+
+.private__title {
+  font-size: 50px;
+  line-height: 50px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 80px 0 35px 0px;
+}
+
+.private__text {
+  font-family: PTSans;
+  font-size: 15px;
+  line-height: 25px;
+  max-width: 300px;
+  margin: 0 0 55px 0;
+}
+
+.button span {
+  line-height: 50px;
+  display: inline-block;
+  font-family: Bebas;
+  -webkit-text-decoration: bold;
+          text-decoration: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 0 30px;
+  background-color: #fff;
+  color: #000;
+}
+
+.button__white {
+  background-color: #fff;
+  color: #000000;
+}
+
+.private__link {
+  display: inline-block;
+  font-family: Bebas;
+  font-size: 15px;
+  line-height: 25px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #fffffe;
+  margin: 0 0 0 15px;
+}
+
+.colums {
+  padding: 0 0 35px 0;
+  color: #000000;
+}
+
+.colums .container {
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+.colums__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.colums__tawer {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 25%;
+          flex: 0 1 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 0 35px 0;
+}
+
+.tawer__img {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+}
+
+.tawer__title {
+  font-family: Bebas;
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 20px 0 30px 0;
+}
+
+.tawer__text {
+  font-family: 'PT Sans';
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+  max-width: 176px;
+  font-weight: 400;
+}
+
+.tawer__button span {
+  background-color: #000;
+  color: #fff;
+}
+
+.tawer__link {
+  display: inline-block;
+  font-family: Bebas;
+  font-size: 15px;
+  line-height: 25px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #000000;
+  margin: 25px 0 0 0;
+}
+
+.why {
+  color: #000;
+  background-color: #ebebeb;
+  margin: 0 0 75px 0;
+}
+
+.why__top {
+  margin: 0 0 50px 0;
+}
+
+.why__top__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.why__top__body {
+  background-color: #000;
+  min-height: 150px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+  padding: 60px 60px 60px 0;
+  text-align: right;
+  font-weight: bold;
+}
+
+.why__top__title {
+  font-family: "PT Sans";
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.why__top__bg {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+  background: url("../../img/why.jpg") 0 0/100% 100% no-repeat;
+}
+
+.why__body {
+  background-color: #ebebeb;
+}
+
+.why__body .container {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.why__body__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 -7.5px;
+}
+
+.why__body__item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 0 50px 0;
+  padding: 0 7.5px;
+}
+
+.item__body {
+  margin: 0 0 0 12px;
+}
+
+.item__title {
+  font-family: Bebas;
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0 0 25px 0;
+}
+
+.item__text {
+  font-family: "PT Sans";
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.hello__top .container {
+  max-width: 630px;
+  margin: 0 auto;
+}
+
+.hello__top__title {
+  font-family: Bebas;
+  font-size: 50px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0 0 40px 0;
+  color: #000;
+}
+
+.hello__contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.hello__contacts__colums {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  margin: 0 0 20px 0;
+}
+
+.contacts__item {
+  display: inline-block;
+  padding: 0 0 0 35px;
+  font-family: "PT Sans";
+  font-size: 15px;
+  line-height: 27px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.item__bg__1 {
+  background: url("../../img/hello/01.svg") left no-repeat;
+}
+
+.item__bg__2 {
+  background: url("../../img/hello/03.svg") left no-repeat;
+}
+
+.item__bg__3 {
+  background: url("../../img/hello/02.svg") left no-repeat;
+}
+
+.hello__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.social__item {
+  margin: 0 30px 0 0;
+}
+
+.social__item:last-child {
+  margin: 0px 0px 0px 0px;
+}
+
+.hello__content {
+  background: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hello__content__colums {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+}
+
+.hello__content__map {
+  height: 100%;
+}
+
+.hello__content__body {
+  padding: 55px 15px 50px 60px;
+}
+
+.hello__content__body__title {
+  font-family: Bebas;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  margin: 0 0 30px 0;
+}
+
+.hello__content__body__input {
+  margin: 0 0 25px 0;
+}
+
+.input {
+  background-color: #252525;
+  border: 2px solid #959595;
+  width: 375px;
+  font-family: "PT Sans";
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #959595;
+  padding: 20px;
+}
+
+.textarea {
+  min-height: 100px;
+}
+
+.hello__content__body__btn span {
+  font-family: Bebas;
+  font-size: 15px;
+  line-height: 50px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #000000;
+  display: inline-block;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.container {
+  max-width: 850px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 125px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__text {
+  font-family: "PT Sans";
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #4d4d4d;
+}
+
+.footer__text a {
+  text-decoration: underline;
+  color: #4d4d4d;
+}
+
+.footer__text a:hover {
+  text-decoration: none;
+  color: blue;
+}

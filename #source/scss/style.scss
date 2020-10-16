@@ -1,0 +1,361 @@
+
+//Шрифты
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+@font-face {
+	font-family: 'Bebas';
+	src: url('../fonts/BebasNeueRegular.eot');
+	src: local('☺'), url('../fonts/BebasNeueRegular.woff') format('woff'), url('../fonts/BebasNeueRegular.ttf') format('truetype'), url('../fonts/BebasNeueRegular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+//Обнуление
+@import "null_style.scss";
+
+
+//===========================
+
+
+.header{
+	height: 175px;
+	border: 1px solid #000;
+}
+
+.private {
+	margin: 40px 0 75px 0;
+}
+.private__row {
+	display: flex;
+}
+.private__image {
+	flex: 1 0 50%;
+	background:url("../../img/private__img.jpg")0 0/100% 100% no-repeat;
+
+}
+.private__body {
+	flex: 1 1 50%;
+	background: #000;
+	color: #ffffff;
+	padding: 0 0 75px 60px;
+}
+.private__title {
+	font-size: 50px;
+	line-height: 50px;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	margin: 80px 0 35px 0px;
+	}
+.private__text {
+	font-family: PTSans;
+	font-size: 15px;
+	line-height: 25px;
+	max-width: 300px;
+	margin: 0 0 55px 0;
+}
+.button {
+	
+	span{
+			line-height: 50px;
+	display: inline-block;
+	font-family: Bebas;
+	text-decoration: bold;
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	padding: 0 30px;
+	background-color: #fff;
+	color: #000;
+
+	}
+
+}
+
+.button__white {
+
+background-color: #fff;
+color: #000000;
+}
+.private__link {
+display: inline-block;
+font-family: Bebas;
+font-size: 15px;
+line-height: 25px;
+text-decoration: underline;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+color: #fffffe;
+margin: 0 0 0 15px;
+}
+
+//=======================================================
+.colums {
+	padding: 0 0 35px 0;
+	color: #000000;
+
+	.container{
+	max-width: 880px;
+	margin: 0 auto;
+	}
+}
+
+.colums__row {
+	display: flex;
+}
+.colums__tawer {
+	flex: 0 1 25%;
+	display: flex;
+	flex-direction: column;
+	margin: 0 0 35px 0;
+}
+.tawer__img {
+	flex: 0 1 auto;
+}
+.tawer__title {
+	font-family: Bebas;
+font-size: 25px;
+line-height: 25px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+
+margin: 20px 0 30px 0;
+}
+
+.tawer__text {
+font-family: 'PT Sans';
+font-size: 15px;
+line-height: 25px;
+font-weight: 400;
+margin: 0 0 30px 0;
+max-width: 176px;
+font-weight: 400;
+
+}
+.tawer__button {
+span {background-color: #000;
+	color: #fff;
+	}
+}
+.tawer__link {
+	display: inline-block;
+font-family: Bebas;
+font-size: 15px;
+line-height: 25px;
+text-decoration: underline;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+color: #000000;
+margin: 25px 0 0 0;
+}
+//====================================================================
+.why {
+	color: #000;
+	background-color:#ebebeb;
+	margin: 0 0 75px 0;
+}
+.why__top {
+	margin: 0 0 50px 0;
+}
+.why__top__row {
+	display: flex;
+}
+.why__top__body{
+	background-color: #000;
+	min-height: 150px;
+	flex: 1 1 50%;
+	padding: 60px 60px 60px 0;
+	text-align: right;
+	font-weight: bold;
+}
+
+
+.why__top__title {
+	font-family: "PT Sans";
+	font-size: 50px;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: #ffffff;
+
+}
+.why__top__bg {
+	flex: 1 1 50%;
+	background: url("../../img/why.jpg") 0 0/100% 100% no-repeat;
+}
+.why__body {
+	background-color:#ebebeb;
+	.container {
+	max-width: 850px;
+	margin: 0 auto;
+	}
+}
+
+.why__body__row {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -7.5px;
+}
+.why__body__item {
+	flex: 0 1 50%;
+	display: flex;
+	margin: 0 0 50px 0;
+	padding: 0 7.5px;
+}
+
+.item__body {
+	margin: 0 0 0 12px;
+}
+.item__title {
+	font-family: Bebas;
+	font-size: 25px;
+	line-height: 25px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	margin: 0 0 25px 0;
+}
+.item__text {
+font-family: "PT Sans";
+font-size: 15px;
+line-height: 25px;
+}
+//========================================================================
+
+.hello__top {
+	.container {
+	max-width: 630px;
+	margin: 0 auto;}
+}
+.hello__top__title {
+	font-family: Bebas;
+	font-size: 50px;
+	line-height: 25px;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	margin: 0 0 40px 0;
+	color: #000;
+	}
+.hello__contacts {
+	display: flex;
+	flex-wrap: wrap;
+}
+.hello__contacts__colums {
+	flex: 0 0 50%;
+	margin: 0 0 20px 0;
+}
+.contacts__item {
+	display: inline-block;
+	padding: 0 0 0 35px;
+	font-family: "PT Sans";
+	font-size: 15px;
+	line-height: 27px;
+	font-weight: 400;
+	color: #000000;
+}
+.item__bg__1{
+	background: url("../../img/hello/01.svg") left no-repeat;
+}
+.item__bg__2{
+	background: url("../../img/hello/03.svg") left no-repeat;
+}
+.item__bg__3{
+	background: url("../../img/hello/02.svg") left no-repeat;}
+.hello__social {
+	display: flex;
+
+}
+.social__item {
+	margin: 0 30px 0 0;
+	&:last-child{margin: 0px 0px 0px 0px;}
+}
+
+.hello__content {
+	background: #000;
+	display: flex;
+}
+.hello__content__colums {
+	flex: 0 1 50%;
+}
+.hello__content__map {
+	height: 100%;
+}
+.hello__content__body {
+	padding: 55px 15px 50px 60px;
+}
+.hello__content__body__title {
+	font-family: Bebas;
+	font-size: 25px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: #ffffff;
+	margin: 0 0 30px 0;
+}
+
+.hello__content__body__input {
+	margin: 0 0 25px 0;
+	
+}
+.input {
+	background-color: #252525;
+	border: 2px solid #959595;
+	width: 375px;
+	font-family: "PT Sans";
+	font-size: 15px;
+	line-height: 25px;
+	font-weight: 400;
+	color: #959595;
+	padding: 20px;
+}
+.textarea {
+	min-height: 100px;
+}
+.hello__content__body__btn {
+	span{
+		font-family: Bebas;
+		font-size: 15px;
+		line-height: 50px;
+		font-weight: 400;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		color: #000000;
+		display: inline-block;
+		text-align: center;
+		padding: 0 20px;
+	}
+}
+//================================================================
+
+.container {
+	max-width: 850px;
+	width: 100%;
+   margin: 0 auto;
+}
+.footer__body{
+	display: flex;
+	justify-content: space-between;
+	height: 125px;
+	align-items: center;
+}
+
+.footer__text{
+	font-family: "PT Sans";
+	font-size: 15px;
+	line-height: 25px;
+	font-weight: 400;
+	color: #4d4d4d;
+	a{
+		text-decoration: underline;
+		color: #4d4d4d;
+		&:hover{
+		text-decoration: none;
+		color: blue;
+		}
+	}
+}
+
+
+
+
+
